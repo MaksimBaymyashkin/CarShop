@@ -1,0 +1,43 @@
+.car-card {
+	box-sizing: border-box;
+	display: flex;
+	flex: 1;
+}
+
+.car-card__col {
+	box-sizing: border-box;
+}
+
+.car-card__col:not(:last-child) {
+	margin-right: 8px;
+}
+
+.car-card__col:nth-child(1) {
+	width: 32px;
+	min-width: 32px;
+}
+
+.car-card__col:nth-child(2) {
+	flex: 1;
+}
+
+.car-card__col:nth-child(3) {
+	width: 60px;
+	min-width: 60px;
+}
+
+.car-card__number {
+
+}
+
+.car-card__name {
+
+}
+
+.car-card__color {
+
+}
+
+.car-card__price {
+
+}

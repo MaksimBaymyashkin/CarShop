@@ -1,0 +1,43 @@
+.carset-list {
+	box-sizing: border-box;
+	min-width: 320px;
+	padding: 0 20px;
+}
+
+.carset-list__header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	padding: 8px 0;
+	border-bottom: 1px solid var(--gray-dark);
+}
+
+.carset-list__container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.carset-list__card {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: stretch;
+	margin: 0 8px 24px;
+	color: var(--gray-dark);
+	text-decoration: none;
+}
+
+.carset-list__card:visited {
+	color: var(--gray-dark);
+}
+
+.carset-list__card:hover {
+	box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.3);
+	color: var(--gray-dark);
+	text-decoration: none;
+	cursor: pointer;
+	transition: box-shadow 0.175s ease-in-out;
+}

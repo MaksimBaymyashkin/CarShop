@@ -1,0 +1,39 @@
+.carlist-view {
+	box-sizing: border-box;
+	min-width: 320px;
+	padding: 0 20px;
+}
+
+.carlist-view__header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 73px;
+	margin-bottom: 24px;
+	padding: 8px 0;
+	border-bottom: 1px solid var(--gray-dark);
+}
+
+.carlist-view__header > h1 {
+	margin-right: 24px;
+}
+
+.carlist-view__header-remove-btn {
+	margin-left: auto;
+}
+
+.carlist-view__container {
+	box-sizing: border-box;
+	margin-bottom: 24px;
+}
+
+.carlist-view__car-list {
+	box-sizing: border-box;
+}
+
+.carlist-view__car-list-row {
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 8px;
+}

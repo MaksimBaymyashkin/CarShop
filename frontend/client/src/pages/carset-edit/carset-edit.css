@@ -1,0 +1,31 @@
+.carset-edit {
+	box-sizing: border-box;
+	min-width: 320px;
+	padding: 0 20px;
+}
+
+.carset-edit__container {
+	box-sizing: border-box;
+	margin-bottom: 24px;
+}
+
+.carset-edit__car-list {
+	box-sizing: border-box;
+	margin: 24px 0;
+}
+
+.carset-edit__controls-row {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+}
+
+.carset-edit__control:not(:first-of-type) {
+	margin-left: 8px;
+}
+
+.carset-edit__control:first-of-type {
+	margin-right: auto;
+}

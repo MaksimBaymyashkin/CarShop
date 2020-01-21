@@ -1,0 +1,14 @@
+.carset-view {
+	box-sizing: border-box;
+	min-width: 320px;
+	padding: 0 20px;
+}
+
+.carset-view__container {
+	box-sizing: border-box;
+}
+
+.carset-view__car-list {
+	box-sizing: border-box;
+	margin: 24px 0;
+}

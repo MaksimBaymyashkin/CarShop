@@ -1,0 +1,14 @@
+.car-list {
+	box-sizing: border-box;
+}
+
+.car-list__row {
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.car-list__button {
+	display: flex;
+	align-self: flex-start;
+}

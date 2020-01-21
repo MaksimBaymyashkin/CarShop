@@ -1,0 +1,24 @@
+.carset-edit-header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 73px;
+	margin-bottom: 24px;
+	padding: 8px 0;
+	border-bottom: 1px solid var(--gray-dark);
+}
+
+.carset-edit-header > h1 {
+	margin-right: 24px;
+}
+
+.carset-edit-header__type {
+	box-sizing: border-box;
+	display: block;
+	margin-right: 24px;
+}
+
+.carset-edit-header__edit-btn {
+	margin-left: auto;
+}

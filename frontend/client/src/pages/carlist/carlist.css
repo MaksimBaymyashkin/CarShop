@@ -1,0 +1,43 @@
+.carlist {
+	box-sizing: border-box;
+	min-width: 320px;
+	padding: 0 20px;
+}
+
+.carlist__header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	padding: 8px 0;
+	border-bottom: 1px solid var(--gray-dark);
+}
+
+.carlist__container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.carlist__card {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: stretch;
+	margin: 0 8px 24px;
+	color: var(--gray-dark);
+	text-decoration: none;
+}
+
+.carlist__card:visited {
+	color: var(--gray-dark);
+}
+
+.carlist__card:hover {
+	box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.3);
+	color: var(--gray-dark);
+	text-decoration: none;
+	cursor: pointer;
+	transition: box-shadow 0.175s ease-in-out;
+}
